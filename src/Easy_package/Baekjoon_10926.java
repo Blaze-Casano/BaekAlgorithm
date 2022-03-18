@@ -1,0 +1,14 @@
+package Easy_package;
+import java.util.*;
+
+class Baekjoon_10926 {
+
+	public static void main(String[] args) {
+		String A;
+		Scanner sc = new Scanner(System.in);
+
+		A = sc.next();
+        
+        System.out.printf("%s"+"??!",A);
+    }
+}
