@@ -7,6 +7,7 @@ class Baekjoon_10869 {
 		int A, B;
 		int ans0, ans1, ans2, ans3, ans4;
 		Scanner sc = new Scanner(System.in);
+		sc.close();
 
 		A = sc.nextInt();
 		B = sc.nextInt();

@@ -2,12 +2,13 @@ package Middle_Package;
 
 import java.util.*;
 
-//Á¤´äÀ» ÂüÁ¶ÇÔ.
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 
 public class Baekjoon_12875 {
 
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
+		sc.close();
 		
 		
 		

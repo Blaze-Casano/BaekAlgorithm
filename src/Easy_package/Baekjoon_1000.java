@@ -12,23 +12,24 @@ class Baekjoon_1000 {
 			A = sc.nextInt();
 
 			if (0 > A || A > 10) {
-				System.out.println("´Ù½Ã ÀÔ·ÂÇØ");
+				System.out.println("ï¿½Ù½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½");
 			}
 
 		} while (0 > A || A > 10);
-		//while ÀÌ false ÀÏ¶§ Å»Ãâ
+		//while ï¿½ï¿½ false ï¿½Ï¶ï¿½ Å»ï¿½ï¿½
 		do {
 			System.out.println("B?");
 
 			B = sc.nextInt();
 
 			if (0 > B || B > 10) {
-				System.out.println("´Ù½Ã ÀÔ·ÂÇØ");
+				System.out.println("ï¿½Ù½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½");
 			}
 
 		} while (0 > B || B > 10);
 		int add = A + B;
 
 		System.out.printf("A + B = %d", add);
+		sc.close();
 	}
 }

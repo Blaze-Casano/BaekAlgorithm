@@ -8,6 +8,7 @@ public class Baekjoon_2747 {
 		int a = sc.nextInt();//스캐너
 		
 		System.out.println(fibo(a));//출력값
+		sc.close();
 	}
 
 static int fibo(int a) {//함수부문

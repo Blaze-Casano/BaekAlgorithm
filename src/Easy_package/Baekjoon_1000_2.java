@@ -1,4 +1,5 @@
 package Easy_package;
+
 import java.util.*;
 
 class Baekjoon_1000_2 {
@@ -11,8 +12,8 @@ class Baekjoon_1000_2 {
 		B = sc.nextInt();
 
 		ans = A + B;
-		
-		System.out.printf( "%d" ,ans);
 
+		System.out.printf("%d", ans);
+		sc.close();
 	}
 }
