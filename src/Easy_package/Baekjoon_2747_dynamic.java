@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Baekjoon_2747_dynamic {// 동적 계획법을 사용할 것 이다.
 	
-	static int[] fibo_save; // 배열 선언해주세요! 상위단위에서 선언해야 하위 단위 안에서도 쓴다.
+	static int[] fibo_save; // 상위단위에서 선언해야 하위 단위 안에서도 쓴다.
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
