@@ -8,7 +8,7 @@ public class Baekjoon_10872_Factorial {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int f = sc.nextInt();
-		f_stack = new int[13];//0~12 까지 해서 13칸이래요.
+		f_stack = new int[13];// 0~12 까지 해서 13칸이래요.
 		factorial(f);
 		sc.close();
 	}
@@ -27,8 +27,8 @@ public class Baekjoon_10872_Factorial {
 	static int factorial_dp(int f) {
 		if (f <= 12) {
 			return f_stack[f];
-
-		} else {
+		} 
+		else {
 			return factorial_dp(f - 1) * f;
 
 		}

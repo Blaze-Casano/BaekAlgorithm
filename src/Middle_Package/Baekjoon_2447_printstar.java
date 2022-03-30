@@ -23,8 +23,7 @@ public class Baekjoon_2447_printstar {
 				sb.append(arr[i][j]);
 
 			}
-			sb.append('\n'); //?
-
+			sb.append('\n'); 
 		}
 		System.out.print(sb);
 
@@ -48,7 +47,7 @@ public class Baekjoon_2447_printstar {
 			return;
 		}
 		/*
-		 * n =27 일 경우 한 블로그이 사이즈는 9이고 n=9 일경우 한 블록의 사이즈는 3이듯 해당 블록의 한 칸에 담을 변수를 의미한다. 즉
+		 * n =27 일 경우 한 블록의 사이즈는 9이고 n=9 일경우 한 블록의 사이즈는 3이듯 해당 블록의 한 칸에 담을 변수를 의미한다. 즉
 		 * size
 		 * 
 		 * count 는 별 출력 누적을 의미한다
@@ -73,6 +72,4 @@ public class Baekjoon_2447_printstar {
 
 }// end class
 
-/* BufferdWriter? BufferedReader? vs Scanner
- * Source : https://st-lab.tistory.com/95
- */
+
