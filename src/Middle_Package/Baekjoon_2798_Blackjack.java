@@ -1,4 +1,4 @@
-package Easy_package;
+package Middle_Package;
 
 import java.io.BufferedReader;
 import java.io.IOException;
