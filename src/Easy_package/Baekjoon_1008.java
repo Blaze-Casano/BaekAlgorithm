@@ -15,7 +15,6 @@ class Baekjoon_1008 {
 		ans = A / B;
 		sc.close();
 		System.out.printf( "%.9f" ,ans);
-		//��¸� �ߺ����� �̰� �Ҽ��� 9��¥�������Դϴ�.
 
 	}
 }
