@@ -1,8 +1,80 @@
 package AlgorythmExample;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.StringTokenizer;
+
 public class QuickSort {
 	
+	public static void main(String[] args) throws IOException{
+		
+		sort(inputarray());
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	private static int[] inputarray () throws IOException {
+        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+		
+		System.out.println("정렬할 배열 입력 구분자는 공백입니다.");
+		
+		StringTokenizer st = new StringTokenizer(bf.readLine()," ");
+		
+		int vol = st.countTokens();
+		
+		int []arr =new int [vol];
+		
+		for (int i = 0; i < arr.length; i++) {
+			arr[i] = Integer.parseInt(st.nextToken());
+		}
+		
+		System.out.println("입력받은 배열 확인 : " + Arrays.toString(arr) );
+		
+		System.out.println("다음 배열이 맞으시다면 엔터 아니면 N을 입력해주십시오. : ");
+		
+		if(st.nextToken().equals("N")) {
+			inputarray();
+			
+			return null;
+			
+		}else return arr;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	public static void sort(int[] a) {
+		//배열 입력부 및 출력부 추가분 
+		
 		l_pivot_sort(a, 0, a.length - 1);
 	}
 	
