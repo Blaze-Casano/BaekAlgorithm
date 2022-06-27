@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.NoSuchElementException;
 import java.util.StringTokenizer;
 
-public class QuickSort {
+public class QuickSort_lowPivot {
 	static int[] arr;
 
 	public static void main(String[] args) throws IOException {
@@ -45,7 +45,7 @@ public class QuickSort {
 		try {
 			if (ans.equals('N')) {
 
-				inputArray();
+				inputArray(); //주의 : 재귀호출
 			}
 
 		} catch (NoSuchElementException a) {
@@ -87,7 +87,7 @@ public class QuickSort {
 		 * +---------------------------------------------------------+ | pivot | element
 		 * <= pivot | element > pivot |
 		 * +---------------------------------------------------------+
-		 * 
+		 * 즉 요소와 피벗을 비교한뒤 피벗이 작으면 피벗을 왼쪽으로 민다
 		 * 
 		 * result After Partitioning:
 		 * 
@@ -95,7 +95,7 @@ public class QuickSort {
 		 * +---------------------------------------------------------+ | element <=
 		 * pivot | pivot | element > pivot |
 		 * +---------------------------------------------------------+
-		 * 
+		 * 피벗의 왼쪽에 원소가 아닌 피벗만 남거나 아무것도 없을때 피벗을 바꾼다.
 		 * 
 		 * result : pivot = lo
 		 * 

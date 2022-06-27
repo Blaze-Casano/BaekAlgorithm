@@ -7,6 +7,8 @@ public class QuickSort_highPivot {
 		r_pivot_sort(a, 0, a.length - 1);
 	}
 	
+	
+	
 	/**
 	 *  오른쪽 피벗 선택 방식
 	 * @param a		정렬할 배열

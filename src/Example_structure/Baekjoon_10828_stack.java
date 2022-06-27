@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-//stack
+//stack 제출용
 
 public class Baekjoon_10828_stack {
 	 
@@ -21,7 +21,7 @@ public class Baekjoon_10828_stack {
 		
 		StringTokenizer st;
 		
-		int N = Integer.parseInt(br.readLine());
+		int N = Integer.parseInt(br.readLine()); //작업의 개수를 입력받는 라인.
  
 		stack = new int[N];
 		

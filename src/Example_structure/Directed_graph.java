@@ -2,6 +2,8 @@ package Example_structure;
 
 //Source : https://hellokoding.com/graph-data-structure/
 
+//방향성의 유무
+
 //Directed graph implementation example with an adjacency list
 
 import java.util.ArrayList;  
