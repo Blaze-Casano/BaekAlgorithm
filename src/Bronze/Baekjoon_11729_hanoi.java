@@ -1,8 +1,7 @@
-package Easy_package;
+package Bronze;
 
 import java.util.*;
 import java.io.*;
-import java.math.BigInteger;
 
 public class Baekjoon_11729_hanoi {
 	static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

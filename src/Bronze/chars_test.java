@@ -1,4 +1,4 @@
-package Easy_package;
+package Bronze;
 
 public class chars_test {public static void main(String[] args) {
 	String temp;

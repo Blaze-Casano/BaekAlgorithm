@@ -1,4 +1,4 @@
-package Easy_package;
+package Bronze;
 
 public class test_case {
     public static void main(String[] args) {

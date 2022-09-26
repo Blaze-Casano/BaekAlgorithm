@@ -1,4 +1,4 @@
-package Easy_package;
+package Bronze;
 import java.util.*;
 //재귀방식 피보나치 수열, 그러나 계산시 많은 자원을 사용
 public class Baekjoon_2747 {

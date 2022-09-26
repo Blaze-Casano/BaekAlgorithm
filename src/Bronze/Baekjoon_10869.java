@@ -1,4 +1,4 @@
-package Easy_package;
+package Bronze;
 import java.util.*;
 
 class Baekjoon_10869 {
